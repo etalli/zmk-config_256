@@ -18,15 +18,15 @@
         &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSLH
         &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
         &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp COMMA   &kp DOT     &kp SLASH   &kp RSHFT
-        &kp CAPS    &kp LALT    &kp LGUI    &mo FN2     &kp BSPC    &kp LALT    &kp N1      &kp RETURN  &kp SPACE   &mo FN1    &kp RCTRL   &kp DEL 
+        &kp CAPS    &kp LALT    &kp LGUI    &mo FN2     &kp BSPC    &kp DEL     &kp N1      &kp RETURN  &kp SPACE   &mo FN1     &kp RCTRL   &kp DEL 
       >;
     };
 
     fn1_layer {
       bindings = <
         &kp GRAVE   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10     &kp F11
-        &trans      &trans      &trans      &trans      &trans      &trans      &kp PSCRN   &kp SLCK    &kp PAUSE_BREAK &trans  &trans      &kp F12
-        &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp EQUAL   &kp INSERT  &kp HOME    &kp PG_UP   &trans      &trans      &trans
+        &trans      &trans      &trans      &trans      &trans      &trans      &kp PSCRN   &kp SLCK    &kp UP      &trans      &trans      &kp F12
+        &trans      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp EQUAL   &kp INSERT  &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
         &trans      &trans      &trans      &kp LBKT    &kp RBKT    &trans      &kp DEL     &kp END     &kp PG_DN   &trans      &trans      &trans
         &trans      &trans      &trans      &mo FN2     &trans      &kp RETURN  &kp RETURN  &trans      &mo FN2     &trans      &trans      &trans 
       >;
